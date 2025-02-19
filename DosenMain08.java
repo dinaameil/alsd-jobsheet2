@@ -1,7 +1,7 @@
 public class DosenMain08 {
     public static void main(String[] args) {
-        Dosen08 dosen1 = new Dosen08("D1121987", "Dr. Budi", false, 2003, "");
-        Dosen08 dosen2 = new Dosen08("D1123456", "Dr. Andi", true, 2015, "Machine Learning");
+        Dosen08 dosen1 = new Dosen08("D1121987", "Dr. Budi Sulistyo, S.Kom., M.Kom", false, 2003, "");
+        Dosen08 dosen2 = new Dosen08("D1123456", "Dr. Andi Hustian Subagyo, S.T., M.T", true, 2015, "Machine Learning");
 
         dosen1.TampilInformasi();
         System.out.println();
