@@ -4,17 +4,9 @@ public class Mahasiswa09 {
     String kelas;
     double ipk;
 
-    // Constructor untuk inisialisasi objek
-    public Mahasiswa09(String nim, String nama, String kelas, double ipk) {
-        this.nim = nim;
-        this.nama = nama;
-        this.kelas = kelas;
-        this.ipk = ipk;
-    }
-
     public void tampilkanInformasi() {
-        System.out.println("NIM: " + nim);
         System.out.println("Nama: " + nama);
+        System.out.println("NIM: " + nim);
         System.out.println("Kelas: " + kelas);
         System.out.println("IPK: " + ipk);
     }
@@ -43,20 +35,5 @@ public class Mahasiswa09 {
         }
     }    
 
-    public static void main(String[] args) {
-        Mahasiswa09 mahasiswa = new Mahasiswa09("244107060105", "Dina Mei Lestari", "SIB 1G", 3.8);
-    
-        mahasiswa.tampilkanInformasi();
-        
-        mahasiswa.ubahKelas("SIB 1F");
-    
-        mahasiswa.updateIpk(3.9);
 
-        mahasiswa.tampilkanInformasi();
-    
-        System.out.println("Kinerja: " + mahasiswa.nilaiKinerja(mahasiswa.ipk));
-
-        
-    }
-    
 }
